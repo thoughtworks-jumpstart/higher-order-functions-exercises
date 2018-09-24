@@ -1,7 +1,7 @@
 var core = require("./core");
 
-describe.skip("Filter", function() {
-  describe("#onlyEven()", function() {
+describe("Filter", function() {
+  describe.skip("#onlyEven()", function() {
     it("returns only those numbers that are even", function() {
       var input = [10, 15, 20, 25, 30, 35];
       var expected = [10, 20, 30];
@@ -11,7 +11,7 @@ describe.skip("Filter", function() {
     });
   });
 
-  describe("#onlySingleWord()", function() {
+  describe.skip("#onlySingleWord()", function() {
     it("returns only those strings with a single word (no spaces)", function() {
       var input = ["return", "phrases", "with one word"];
       var expected = ["return", "phrases"];
@@ -21,7 +21,7 @@ describe.skip("Filter", function() {
     });
   });
 
-  describe("#positiveRowsOnly()", function() {
+  describe.skip("#positiveRowsOnly()", function() {
     it("return only the rows in the matrix that have all positive integers", function() {
       var input = [[1, 10, -100], [2, -20, 200], [3, 30, 300]];
       var expected = [[3, 30, 300]];
@@ -31,7 +31,7 @@ describe.skip("Filter", function() {
     });
   });
 
-  describe("#truthyValuesOnly()", function() {
+  describe.skip("#truthyValuesOnly()", function() {
     it("return only values which are truthy (i.e. not  false, 0, '', null or undefined", function() {
       var input = ["racecar", "", false, null, 1, 0, undefined];
       var expected = ["racecar", 1];

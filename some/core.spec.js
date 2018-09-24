@@ -1,7 +1,7 @@
 var core = require("./core");
 
-describe.skip("some", function() {
-  describe("#anyGreaterThan10()", () => {
+describe("some", function() {
+  describe.skip("#anyGreaterThan10()", () => {
     it("anyGreaterThan10([9, 10, 11]) should return true", function() {
       var goodInput = [9, 10, 11];
       expect(core.anyGreaterThan10(goodInput)).toEqual(true);
@@ -13,7 +13,7 @@ describe.skip("some", function() {
     });
   });
 
-  describe("#longWord()", () => {
+  describe.skip("#longWord()", () => {
     it("longWord(['abc', '12345678901']) should return true", function() {
       var goodInput = ["abc", "12345678901"];
       expect(core.longWord(goodInput)).toEqual(true);
@@ -25,7 +25,7 @@ describe.skip("some", function() {
     });
   });
 
-  describe("#containsTrue()", () => {
+  describe.skip("#containsTrue()", () => {
     it("containsTrue([[false, false], [false, true]]) should return true", function() {
       var goodInput = [[false, false], [false, true]];
       expect(core.containsTrue(goodInput)).toEqual(true);
@@ -37,7 +37,7 @@ describe.skip("some", function() {
     });
   });
 
-  describe("#containsCarcosa()", () => {
+  describe.skip("#containsCarcosa()", () => {
     it("containsCarcosa should return true when the array contains 'Carcosa' somewhere", function() {
       var goodInput = [
         "Strange is the night where black stars rise,",

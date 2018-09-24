@@ -1,7 +1,7 @@
 var core = require("./core");
 
-describe.skip("every", function() {
-  describe("#allEven", function() {
+describe("every", function() {
+  describe.skip("#allEven", function() {
     it("allEven([2, 4, 10]) should return true", function() {
       var goodInput = [2, 4, 10];
       expect(core.allEven(goodInput)).toEqual(true);
@@ -13,7 +13,7 @@ describe.skip("every", function() {
     });
   });
 
-  describe("#isEveryElementPositive", function() {
+  describe.skip("#isEveryElementPositive", function() {
     it("isEveryElementPositive([[1, 2], [4, 5]]) should return true", function() {
       var goodInput = [[1, 2], [4, 5]];
       expect(core.isEveryElementPositive(goodInput)).toEqual(true);

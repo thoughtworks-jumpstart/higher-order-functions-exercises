@@ -1,7 +1,7 @@
 var core = require("./core");
 
-describe.skip("Map", function() {
-  describe("#multiplyBy10()", function() {
+describe("Map", function() {
+  describe.skip("#multiplyBy10()", function() {
     it("multiplies all elements in an array by 10", function() {
       var input = [45, 1, -10, 11, 250];
       var expected = [450, 10, -100, 110, 2500];
@@ -11,7 +11,7 @@ describe.skip("Map", function() {
     });
   });
 
-  describe("#onlyVowels()", function() {
+  describe.skip("#onlyVowels()", function() {
     it("removes any non-vowel character from words in an array", function() {
       var input = ["average", "exceptional", "amazing"];
       var expected = ["aeae", "eeioa", "aai"];
@@ -21,7 +21,7 @@ describe.skip("Map", function() {
     });
   });
 
-  describe("#multiplyBy2()", function() {
+  describe.skip("#multiplyBy2()", function() {
     it("multiplyBy2([1,2,3]) should return [2,4,6]", function() {
       expect(core.multiplyBy2([1, 2, 3])).toEqual([2, 4, 6]);
     });
@@ -31,7 +31,7 @@ describe.skip("Map", function() {
     });
   });
 
-  describe("#doubleMatrix()", function() {
+  describe.skip("#doubleMatrix()", function() {
     it("doubles the numbers in the matrix, maintaining the same structure", function() {
       var input = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
       var expected = [[2, 4, 6], [8, 10, 12], [14, 16, 18]];
@@ -41,7 +41,7 @@ describe.skip("Map", function() {
     });
   });
 
-  describe("#onlyNames()", function() {
+  describe.skip("#onlyNames()", function() {
     it("returns only the names as a list", function() {
       var input = [
         {

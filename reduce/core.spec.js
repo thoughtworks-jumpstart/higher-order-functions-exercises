@@ -1,7 +1,7 @@
 var core = require("./core");
 
-describe.skip("Reduce", function() {
-  describe("#sum()", function() {
+describe("Reduce", function() {
+  describe.skip("#sum()", function() {
     it("sum all the numbers in the array", function() {
       var input = [10, 15, 20, 25, 30, 35];
       var expected = 135;
@@ -11,7 +11,7 @@ describe.skip("Reduce", function() {
     });
   });
 
-  describe("#productAll()", function() {
+  describe.skip("#productAll()", function() {
     it("return the product of all items in the matrix", function() {
       var input = [[1, 2, 3], [4, 5], [6]];
       var expected = 720;
@@ -21,7 +21,7 @@ describe.skip("Reduce", function() {
     });
   });
 
-  describe("#luckyNumbers()", function() {
+  describe.skip("#luckyNumbers()", function() {
     it("return a fortune like sentence with lucky numbers", function() {
       var input = [30, 48, 11, 5, 32];
       var expected = "Your lucky numbers are: 30, 48, 11, 5, 32.";
