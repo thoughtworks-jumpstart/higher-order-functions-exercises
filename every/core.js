@@ -7,8 +7,8 @@ function allEven(array) {
 // Check to see if every element in the matrix is
 // an array and that every element in the array is
 // greater than 0.
-function isEveryElementPositive(array) {
-  return array;
+function isEveryElementPositive(matrix) {
+  return matrix;
 }
 
 module.exports = {
