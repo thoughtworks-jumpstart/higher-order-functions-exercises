@@ -10,8 +10,9 @@ function multiplyBy2(array) {
   return array;
 }
 
-function doubleMatrix(array) {
-  return array;
+// matrix is just an array of array
+function doubleMatrix(matrix) {
+  return matrix;
 }
 
 function onlyNames(array) {

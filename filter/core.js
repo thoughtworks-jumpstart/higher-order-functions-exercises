@@ -6,8 +6,9 @@ function onlySingleWord(array) {
   return array;
 }
 
-function positiveRowsOnly(array) {
-  return array;
+// matrix is just an array of array
+function positiveRowsOnly(matrix) {
+  return matrix;
 }
 
 function truthyValuesOnly(array) {
